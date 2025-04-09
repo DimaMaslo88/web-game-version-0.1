@@ -6,17 +6,25 @@
   border: 1px solid black;
   border-radius: 3px;
   background-color: chartreuse;
-  .title{
+  margin: 30px 20px 30px 40px; //  верх, право, низ, лево (по часовой стрелке)
+    .title{
     display: flex;
     justify-content: center;
 
   }
-  .icons{
-    width: 20px;
-    height: 20px;
+  .characteristics{
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+
+    .icons{
+      width: 20px;
+      height: 20px;
+    }
+    .icons:hover{
+      color: red;
+      cursor: pointer;
+    }
   }
-  .icons:hover{
-    color: red;
-    cursor: pointer;
-  }
+
 }

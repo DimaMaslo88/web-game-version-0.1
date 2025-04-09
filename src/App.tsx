@@ -1,12 +1,11 @@
 import React from 'react';
-
 import './App.css';
-import { SoldierCard } from 'components/cards/russian-cards/soldierCard';
+import { SolderCards } from 'components/cards/solderCards';
 
 function App() {
   return (
     <div>
-      <SoldierCard />
+      <SolderCards />
     </div>
   );
 }
